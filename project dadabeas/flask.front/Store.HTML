@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Golden LAINS </title>
+    <link rel="icon" href="3be07d4d222f06f0333810def3d4dfd7-removebg-preview.png" type="image/png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="Store.CSS">
+</head>
+<body>
+  
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="C:\Users\User\OneDrive\Desktop\project dadabeas\flask.front\WhatsApp_Image_2024-12-16_at_00.40.05_ed303246-removebg-preview.png" alt="Logo"> <!-- Placeholder for logo -->
+            <h2>Fc Golden Lions </h2>
+        </div>
+        <nav>
+            <a href="Home.HTML" >Home</a>
+            <a href="Member2.HTML"target="_blank">Member</a>
+            <a href="Store.HTML" target="_blank">Store</a>
+            <a href="Sign in.HTML" target="_blank">Sign in</a>
+        </nav>
+    </header>
+    <!-- Navigation (same as index.html) -->
+    
+    <main class="pt-20">
+        <!-- Store Hero -->
+        <section class="relative h-[40vh] bg-royal">
+            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')">
+                <div class="absolute inset-0 bg-gradient-to-b from-royal/80 to-royal/95"></div>
+            </div>
+            <div class="relative h-full flex items-center justify-center text-white">
+                
+            </div>
+        </section>
+
+        <!-- Category Filter -->
+        <div class="bg-white shadow">
+            <div class="max-w-7xl mx-auto px-4 py-4">
+                <div class="flex gap-4" id="categoryFilter">
+                    <button class="category-btn active" data-category="all">All Products</button>
+                    <button class="category-btn" data-category="kits">Kits</button>
+                    <button class="category-btn" data-category="training">Training Wear</button>
+                    <button class="category-btn" data-category="accessories">Accessories</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Products Grid -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8" id="productsGrid">
+                    <!-- Product 1 -->
+                    <div class="product-card" data-category="kits">
+                        <img src="C:\Users\User\OneDrive\Desktop\project dadabeas\flask.front\WhatsApp Image 2024-12-17 at 21.50.20_59d40eba.jpg" alt="T-shirt 1" class="product-image rotate-3d">
+                        <h2 class="product-title">Club T-Shirt 1</h2>
+                        <p class="product-price">$50</p>
+                        <select title="Size" class="product-size">
+                            <option value="S">Small</option>
+                            <option value="M">Medium</option>
+                            <option value="L">Large</option>
+                        </select>
+                        <button class="add-to-cart" data-product-id="1">Buy Now</button>
+
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="product-card" data-category="kits">
+                        <img src="C:\Users\User\OneDrive\Desktop\project dadabeas\flask.front\WhatsApp Image 2024-12-17 at 21.50.26_7091c1f8.jpg" alt="T-shirt 2" class="product-image rotate-3d">
+                        <h2 class="product-title">Club T-Shirt 2</h2>
+                        <p class="product-price">$55</p>
+                        <select title="product-size">
+                            <option value="S">Small</option>
+                            <option value="M">Medium</option>
+                            <option value="L">Large</option>
+                        </select>
+                        <button class="add-to-cart" data-product-id="2">Buy Now</button>
+
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="product-card" data-category="accessories">
+                        <img src="C:\Users\User\OneDrive\Desktop\project dadabeas\flask.front\WhatsApp Image 2024-12-17 at 21.50.18_2034dd37.jpg" alt="Water Bottle" class="product-image">
+                        <h2 class="product-title">Water Bottle</h2>
+                        <p class="product-price">$15</p>
+                        <button class="add-to-cart" data-product-id="3">Buy Now</button>
+
+                    </div>
+
+                    <!-- Product 4 -->
+                    <div class="product-card" data-category="accessories">
+                        <img src="C:\Users\User\OneDrive\Desktop\project dadabeas\flask.front\WhatsApp Image 2024-12-17 at 21.50.26_8f28a15f.jpg" alt="Football" class="product-image">
+                        <h2 class="product-title">Club Football</h2>
+                        <p class="product-price">$30</p>
+                        <button class="add-to-cart" data-product-id="4">Buy Now</button>
+
+                    </div>
+
+                    <!-- Product 5 -->
+                    <div class="product-card" data-category="accessories">
+                        <img src="C:\Users\User\OneDrive\Desktop\project dadabeas\flask.front\WhatsApp Image 2024-12-17 at 21.50.20_9b45b832.jpg" alt="Club Bag" class="product-image">
+                        <h2 class="product-title">Club Bag</h2>
+                        <p class="product-price">$40</p>
+                        <button class="add-to-cart" data-product-id="5">Buy Now</button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024  Fc Golden Lions Management. All rights reserved.</p>
+        <div class="social-icons">
+            <link class="1"  href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            <link/>
+            <link="2" href="https://www.youtube.com" target="_blank" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+            <link/>
+            <link  class="3"  href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            <link/>
+            <link class="4" href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+            <link/>
+            <link class="6" href="https://www.tiktok.com" target="_blank" aria-label="TikTok">
+                <i class="fab fa-tiktok"></i>
+            <link/>
+            
+        </div>
+    </footer>
+
+    <!-- Footer (same as index.html) -->
+    
+    <script type="module" src="Store.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+
+    <link href="Store.HTML" target="_blank">Store</link>
+</head>
+<body>
+    <h1>Payment Page</h1>
+    <p>Please complete the payment for your selected product.</p>
+
+    <!-- زر لإكمال الدفع -->
+    <button id="completePayment">Complete Payment</button>
+
+    <script>
+        const paymentButton = document.getElementById('completePayment');
+
+        paymentButton.addEventListener('click', () => {
+            // تنفيذ عملية دفع وهمية
+            alert('Payment successful! Redirecting back to the store.');
+
+            // العودة إلى صفحة المتجر
+            window.location.href = 'Store.HTML';
+        });
+    </script>
+</body>
+</html>
